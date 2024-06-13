@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+// @ts-ignore
 import Autosuggest from "react-autosuggest";
 import useStore from "../../store";
 import { searchMatches } from "../../services/utils";
@@ -46,6 +47,7 @@ export default function CreateFormula({ onClick }: HandleClick) {
   );
 
   const onChange = (
+    // @ts-ignore
     event: React.ChangeEvent<HTMLInputElement>,
     { newValue }: { newValue: string }
   ) => {
@@ -53,6 +55,7 @@ export default function CreateFormula({ onClick }: HandleClick) {
   };
 
   const onSuggestionSelected = (
+    // @ts-ignore
     event: React.FormEvent,
     { suggestion }: { suggestion: Match }
   ) => {
