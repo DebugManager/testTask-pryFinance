@@ -1,0 +1,14 @@
+.sideBar {
+  // position: fixed;
+  border: 1px solid #c3c3c3;
+  width: 350px;
+  height: 100vh;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 15px;
+  border-bottom: 1px solid #c3c3c3;
+}

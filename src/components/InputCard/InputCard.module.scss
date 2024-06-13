@@ -1,0 +1,38 @@
+.card {
+  width: 95%;
+  margin: 15px auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 0.5px grey;
+}
+
+.cardHead {
+  display: flex;
+  background-color: #e4e7ea;
+border-radius: 10px 10px 0px 0px ;
+  align-items: center;
+  padding: 4px 10px;
+  p {
+    margin: unset;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+.valueBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5f8fa;
+  padding: 8px 10px;
+  border-radius: 0px 0px 10px 10px ;
+  p {
+    font-weight: 600;
+    font-size: 14px;
+    margin: unset;
+    padding: 4px 7px;
+    box-shadow: 0px 0px 1px 1px #b0b0b0;
+    border-radius: 5px;
+    text-align: start;
+    width: 100%;
+  }
+}

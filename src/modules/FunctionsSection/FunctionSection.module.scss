@@ -1,0 +1,17 @@
+.mainBody{
+    width: 100%;
+  position: relative;
+height: 100vh;
+}
+
+.bodyHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    border: 1px solid #c3c3c3;
+    h3{
+        margin: unset;
+        font-size: 22px;
+    }
+}
